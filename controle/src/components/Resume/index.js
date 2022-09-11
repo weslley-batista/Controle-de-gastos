@@ -12,8 +12,8 @@ import {
 const Resume = ({income, expense, total}) => {
   return (
         <C.Container>
-            <ResumeItem title="Entradas" Icon={FaRegArrowAltCircleUp} value={income} />
-            <ResumeItem title="Saidas" Icon={FaRegArrowAltCircleDown} value={expense}/>
+            <ResumeItem title="Entradas" Icon={FaRegArrowAltCircleDown} value={expense}/>
+            <ResumeItem title="Saidas" Icon={FaRegArrowAltCircleUp} value={income} />
             <ResumeItem title="Total" Icon={FaDollarSign} value={total} />
         </C.Container>
     )
